@@ -21,7 +21,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <div className="flex flex-wrap min-h-screen pt-6">
           <LeftSidebar />
-          <section className="flex-grow flex flex-col gap-6">
+          <section className="flex-grow flex flex-col gap-4">
             <Navigation />
             <div className="flex w-full h-full">
               <div className="flex-grow">
