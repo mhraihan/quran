@@ -5,7 +5,7 @@ import { FiUser } from "react-icons/fi";
 import { RxReader } from "react-icons/rx";
 const RightSidebar = () => {
   return (
-    <aside className="sidebar sidebar-right lg:w-52 w-48 px-4 py-6 mt-[2px]">
+    <aside className="sidebar sidebar-right lg:w-52 w-48 px-4 pt-6 pb-5 mt-[2px]">
       <div className="flex flex-col justify-between h-full">
         <div>
           <div className="flex justify-between flex-row-reverse gap-3 items-center border-b pb-6">

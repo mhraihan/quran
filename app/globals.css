@@ -67,3 +67,19 @@ body,
     @apply text-primary transition-colors;
   }
 }
+.main-height{
+  height: calc( 100dvh - 6.75rem);
+}
+.scroll-inner::-webkit-scrollbar {
+  width: 4px;
+}
+.scroll-inner::-webkit-scrollbar:horizontal {
+  height: 4px;
+}
+.scroll-inner::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+.scroll-inner::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background: #d0d0d1;
+}

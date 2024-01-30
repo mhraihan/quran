@@ -4,6 +4,7 @@ import RightSidebar from "@/ui/RightSidebar";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import { ScrollArea } from "@/components/ui/scroll-area";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -24,8 +25,8 @@ export default function RootLayout({
           <section className="flex-grow flex flex-col gap-4">
             <Navigation />
             <div className="flex w-full h-full">
-              <div className="flex-grow">
-                <main className="flex h-full flex-col items-center justify-between bg-[#ecf0f2] rounded-t-3xl">
+              <div className="flex-grow rounded-t-3xl bg-[#ecf0f2] ">
+                <main className="flex mt-6 pb-6 px-6 overflow-hidden overflow-y-auto scroll-inner main-height flex-col items-center justify-between ">
                   {children}
                 </main>
               </div>
