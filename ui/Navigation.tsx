@@ -13,7 +13,7 @@ const Navigation = () => {
         </Link>
       </div>
       <div className="w-44 flex justify-end">
-        <Button className="text-xs px-5 h-[28px]">
+        <Button className="text-xs px-5 h-[28px] rounded-full">
          Support
         </Button>
       </div>
